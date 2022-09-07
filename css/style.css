@@ -1,0 +1,53 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	height: 1500px;
+}
+
+.green{
+	width: 700px;
+	height: 350px;
+	background: green;
+	position: relative;
+}
+.red{
+	width: 220px;
+	height: 220px;
+	background: red;
+	border-radius: 50%;
+	position: absolute;
+	top: 18%;
+	left: 35%;
+}
+.fb{
+	width: 200px;
+	position: fixed;
+	top: 40%;
+	right: -132px;
+	transition: 1s;
+}
+.fb:hover{
+	right: -2px;
+}
+.insta{
+	width: 200px;
+	position: fixed;
+	top: 50%;
+	right: -132px;
+	transition: 1s;
+}
+.insta:hover{
+	right: -2px;
+}
+.twitter{
+	width: 200px;
+	position: fixed;
+	top: 65%;
+	right: -132px;
+	transition: 1s;
+}
+.twitter:hover{
+	right: -2px;
+}
